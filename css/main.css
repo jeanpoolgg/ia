@@ -9,6 +9,9 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    background-color: #f2f2f2 !important;
+}
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -60,6 +63,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.fuente {
+    font-size: 1rem !important;
+}
+
 .banner {
     height: 25rem;
     background-image: url(../img/principal.jpg);
@@ -84,28 +99,16 @@ textarea {
 
 .banner__titulo, .banner__contenido {
     color: #fff;
-   
 }
 
-
-
-/* .banner__contenido {
-    text-align: right;
-    color: #fff;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    z-index: 2;
+.informacion {
+    text-align: center;
+    background-color: #f2f2f2;
 }
 
- */
-
-
-
-
-
-
+.informacion__titulo {
+    margin-bottom: 15px;
+}
 
 
 
