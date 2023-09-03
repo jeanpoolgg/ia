@@ -310,8 +310,9 @@ header{
   }
   @media (min-width: 480px) {
     #timeline .demo-card .head h2 {
-      font-size: 165%;
-      line-height: 1.2rem;
+      font-size: 100%;
+      line-height: 1.1rem;
+      letter-spacing: 0.05rem;
     }
   }
   #timeline .demo-card .head h2 span {
@@ -343,6 +344,7 @@ header{
   #timeline .demo-card .body img {
     display: block;
     width: 100%;
+    height: 200px;
   }
   #timeline .demo-card--step1 {
     background-color: #46b8e9;
