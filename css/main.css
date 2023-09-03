@@ -62,6 +62,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header{
+    padding: 10px 0;
+    background-color: #2D0140 !important;
+}
 
 .container {
     width: 90%;
@@ -71,8 +75,14 @@ textarea {
     padding: 100px 0;
 }
 
-.fuente {
+.navegacion, .navegacion__enlace {
     font-size: 1rem !important;
+    background-color: #2D0140 !important;
+}
+
+.navegacion__titulo:hover , .navegacion__enlace:hover{
+    background-color: #412050 !important;
+
 }
 
 .banner {
@@ -111,6 +121,10 @@ textarea {
 }
 
 
+.piepagina {
+    background-color: #2D0140;
+    color: #fff;
+}
 
 /* ==========================================================================
    Media Queries
