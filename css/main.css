@@ -81,7 +81,7 @@ header{
 }
 
 .navegacion__titulo:hover , .navegacion__enlace:hover{
-    background-color: #412050 !important;
+    background-color: #1f057c !important;
 
 }
 
@@ -107,6 +107,10 @@ header{
 
 .banner--teorico {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../img/marco-teorico.jpg);
+}
+
+.banner--conceptual {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../img/marco-conceptual.jpg);
 }
 
 .banner__contenido {
