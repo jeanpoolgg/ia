@@ -1,10 +1,14 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 html {
     color: #222;
-    font-size: 1em;
     line-height: 1.4;
+    font-size: 62.5%;  /* 1 rem = 10px */
+    font-family: 'Roboto', sans-serif;
 }
+
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -56,11 +60,46 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.banner {
+    height: 25rem;
+    background-image: url(../img/principal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner__contenido {
+    width: 350px;
+    margin-right: 0;
+    border-radius: 5px;
+    padding: 10px 30px;
+    box-shadow: 14px 14px 20px 5px rgba(20, 20, 20, 0.3);
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.banner__titulo, .banner__contenido {
+    color: #fff;
+   
+}
 
 
 
+/* .banner__contenido {
+    text-align: right;
+    color: #fff;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
 
-
+ */
 
 
 
@@ -74,7 +113,19 @@ textarea {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+
+
+@media only screen and (min-width: 641px ) {
+    .banner {
+        height: 43rem;
+        align-items: end;
+    }
+
+    .banner__contenido {
+        text-align: left;
+        box-shadow: 10px 10px 35px 0px rgba(73, 38, 70, 0.568);
+        margin-right: 15%;
+    }
 
 }
 
@@ -130,7 +181,7 @@ textarea {
 }
 
 .clearfix {
-    *zoom: 1;
+    /* *zoom: 1; */
 }
 
 /* ==========================================================================
