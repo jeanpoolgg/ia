@@ -64,7 +64,7 @@ textarea {
    ========================================================================== */
 header{
     padding: 10px 0;
-    background-color: #2D0140 !important;
+    background-color: #0F0240 !important;
 }
 
 .container {
@@ -77,7 +77,7 @@ header{
 
 .navegacion, .navegacion__enlace {
     font-size: 1rem !important;
-    background-color: #2D0140 !important;
+    background-color: #0F0240 !important;
 }
 
 .navegacion__titulo:hover , .navegacion__enlace:hover{
