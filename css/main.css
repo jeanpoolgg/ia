@@ -102,12 +102,15 @@ header{
 }
 
 .banner--historico {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/marco-historico.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../img/marco-historico.jpg);
+}
+
+.banner--teorico {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../img/marco-teorico.jpg);
 }
 
 .banner__contenido {
     width: 350px;
-    margin-right: 0;
     border-radius: 5px;
     padding: 10px 30px;
     box-shadow: 14px 14px 20px 5px rgba(20, 20, 20, 0.3);
@@ -306,7 +309,7 @@ header{
     letter-spacing: 2px;
     margin: 0;
     padding-bottom: 6px;
-    line-height: 1rem;
+    line-height: 1.4rem;
   }
   @media (min-width: 480px) {
     #timeline .demo-card .head h2 {
@@ -334,6 +337,10 @@ header{
   @media (min-width: 1000px) {
     #timeline .demo-card .body {
       height: 315px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
   #timeline .demo-card .body p {
@@ -341,11 +348,17 @@ header{
     line-height: 18px;
     margin-bottom: 15px;
   }
+  #timeline .demo-card .body a {
+    display: inline-block;
+    height: 200px;
+    width: max-content;
+  }
+
   #timeline .demo-card .body img {
     display: block;
-    width: 100%;
-    height: 200px;
+    height: 100%;
   }
+
   #timeline .demo-card--step1 {
     background-color: #46b8e9;
   }
@@ -378,17 +391,69 @@ header{
   }
   
 
-
-
-
-
-
-
-
-
 /* ==========================================================================
-   Media Queries
+    Marco Teorico
    ========================================================================== */
+
+
+.testimony {
+    background-color: #f4e5fa;
+}
+
+.testimoney__main {
+    display: grid;
+    grid-template-columns: 10vw 1fr 10vw;
+    gap: 1em;
+    align-items: center;
+}
+
+.testimony__person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+    text-align: center;
+}
+
+.testimony__person--show {
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+
+.testimony__img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 10%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.textimony__texts {
+    max-width: 700px;
+}
+
+.testimony__course {
+    margin-top: 10px;
+    background-color: #4804D9;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    width: auto;
+    font-size: 0.6em;
+}
+
+.testimony__arrow {
+    width: 40%;
+    cursor: pointer;
+    margin: auto;
+}
 
 
 
