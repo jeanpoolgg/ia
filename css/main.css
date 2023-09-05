@@ -62,9 +62,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 header{
     padding: 10px 0;
     background-color: #0F0240 !important;
+}
+
+.navegacion {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .container {
