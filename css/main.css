@@ -460,6 +460,22 @@ header{
 }
 
 
+/* ==========================================================================
+    ÚLTIMOS AVANCES
+   ========================================================================== */
+
+.avances__title {
+  margin-bottom: 30px;
+}
+
+
+.avances__parrafo {
+  padding: 30px ;
+}
+
+.avances__imagen{
+  margin-top: 100px;
+}
 
 @media only screen and (min-width: 641px ) {
     .banner {
@@ -473,6 +489,18 @@ header{
         margin-right: 15%;
     }
 
+    .avances__enlaces {
+      padding: 1rem 1.5rem !important;
+      margin-right: 3rem !important;
+    }
+
+    .avances__parrafo {
+      padding: 0 ;
+    }
+
+    .avances__imagen{
+      padding-left: 160px;
+    }
 }
 
 @media print,
