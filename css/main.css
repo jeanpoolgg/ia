@@ -405,6 +405,10 @@ header{
     background-color: #f4e5fa;
 }
 
+.testimony__title {
+  padding-top: 70px;
+}
+
 .testimoney__main {
     display: grid;
     grid-template-columns: 10vw 1fr 10vw;
