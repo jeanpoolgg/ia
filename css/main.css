@@ -139,6 +139,10 @@ header{
     background-color: #f2f2f2;
 }
 
+.informacion--beneficios {
+   background-color: #e1d4ff !important;
+}
+
 .informacion__titulo {
     margin-bottom: 15px;
 }
