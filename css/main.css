@@ -114,6 +114,14 @@ header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../img/marco-conceptual.jpg);
 }
 
+.banner--desarrollo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../img/desarrollo.jpg);
+}
+
+.poster {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../img/poster.jpg);
+}
+
 .banner__contenido {
     width: 350px;
     border-radius: 5px;
@@ -406,7 +414,7 @@ header{
 }
 
 .testimony__title {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .testimoney__main {
@@ -480,6 +488,11 @@ header{
 
 .avances__imagen{
   margin-top: 100px;
+}
+
+
+.desarrollo__title {
+  margin-bottom: 80px;
 }
 
 @media only screen and (min-width: 641px ) {
